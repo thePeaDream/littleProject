@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Waterfall",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 950,
+      "height": 376
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 950,
+      "height": 376
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -475,
+        -188,
+        0,
+        475,
+        -188,
+        0,
+        -475,
+        188,
+        0,
+        475,
+        188,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        376,
+        950,
+        376,
+        0,
+        0,
+        950,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -475,
+        "y": -188,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 475,
+        "y": 188,
+        "z": 0
+      }
+    },
+    "texture": "5f33d98a-1d50-4ced-9a5d-594765e19828@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

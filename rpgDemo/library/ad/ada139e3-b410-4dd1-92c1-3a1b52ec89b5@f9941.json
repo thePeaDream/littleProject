@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Damage",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 2451,
+      "height": 438
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 2451,
+      "height": 438
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -1225.5,
+        -219,
+        0,
+        1225.5,
+        -219,
+        0,
+        -1225.5,
+        219,
+        0,
+        1225.5,
+        219,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        438,
+        2451,
+        438,
+        0,
+        0,
+        2451,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -1225.5,
+        "y": -219,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 1225.5,
+        "y": 219,
+        "z": 0
+      }
+    },
+    "texture": "ada139e3-b410-4dd1-92c1-3a1b52ec89b5@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

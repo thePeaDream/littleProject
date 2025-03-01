@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Heal",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 949,
+      "height": 738
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 949,
+      "height": 738
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -474.5,
+        -369,
+        0,
+        474.5,
+        -369,
+        0,
+        -474.5,
+        369,
+        0,
+        474.5,
+        369,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        738,
+        949,
+        738,
+        0,
+        0,
+        949,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -474.5,
+        "y": -369,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 474.5,
+        "y": 369,
+        "z": 0
+      }
+    },
+    "texture": "8a3b5c13-8396-4ad5-b5fb-5c66081fc6b7@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

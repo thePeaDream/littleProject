@@ -1,0 +1,47 @@
+2025-3-1 18:24:20-log: Cannot access game frame or container.
+2025-3-1 18:24:21-debug: asset-db:require-engine-code (1491ms)
+2025-3-1 18:24:22-log: meshopt wasm decoder initialized
+2025-3-1 18:24:22-log: [box2d]:box2d wasm lib loaded.
+2025-3-1 18:24:41-log: [bullet]:bullet wasm lib loaded.
+2025-3-1 18:24:42-log: Cocos Creator v3.8.2
+2025-3-1 18:24:42-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:18.38MB, end 100.98MB, increase: 82.59MB
+2025-3-1 18:24:45-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:104.79MB, end 195.73MB, increase: 90.93MB
+2025-3-1 18:24:45-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:100.98MB, end 195.90MB, increase: 94.91MB
+2025-3-1 18:24:42-debug: [Assets Memory track]: asset-db-plugin-register: programming start:101.54MB, end 104.75MB, increase: 3.20MB
+2025-3-1 18:24:45-debug: [Assets Memory track]: asset-db-plugin-enable: project start:104.97MB, end 195.74MB, increase: 90.77MB
+2025-3-1 18:24:45-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:105.31MB, end 199.04MB, increase: 93.73MB
+2025-3-1 18:24:45-debug: asset-db:worker-init: initPlugin (3477ms)
+2025-3-1 18:24:45-debug: [Assets Memory track]: asset-db:worker-init start:18.38MB, end 195.96MB, increase: 177.58MB
+2025-3-1 18:24:45-debug: Run asset db hook programming:beforePreStart ...
+2025-3-1 18:24:45-debug: Run asset db hook programming:beforePreStart success!
+2025-3-1 18:24:45-debug: Run asset db hook engine-extends:beforePreStart ...
+2025-3-1 18:24:45-debug: Run asset db hook engine-extends:beforePreStart success!
+2025-3-1 18:24:52-debug: asset-db:worker-init (32551ms)
+2025-3-1 18:24:52-debug: asset-db-hook-programming-beforePreStart (6555ms)
+2025-3-1 18:24:52-debug: asset-db-hook-engine-extends-beforePreStart (6554ms)
+2025-3-1 18:24:52-debug: Preimport db internal success
+2025-3-1 18:24:52-debug: Preimport db assets success
+2025-3-1 18:24:52-debug: Run asset db hook programming:afterPreStart ...
+2025-3-1 18:24:52-debug: starting packer-driver...
+2025-3-1 18:24:53-debug: initialize scripting environment...
+2025-3-1 18:24:53-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-3-1 18:24:53-debug: Run asset db hook engine-extends:afterPreStart success!
+2025-3-1 18:24:53-debug: Run asset db hook programming:afterPreStart success!
+2025-3-1 18:24:53-debug: Run asset db hook engine-extends:afterPreStart ...
+2025-3-1 18:24:53-debug: Start up the 'internal' database...
+2025-3-1 18:24:55-debug: asset-db-hook-programming-afterPreStart (2136ms)
+2025-3-1 18:24:55-debug: asset-db:worker-effect-data-processing (1522ms)
+2025-3-1 18:24:55-debug: asset-db-hook-engine-extends-afterPreStart (1522ms)
+2025-3-1 18:24:55-debug: Start up the 'assets' database...
+2025-3-1 18:25:00-debug: asset-db:worker-startup-database[internal] (11956ms)
+2025-3-1 18:25:00-debug: %cImport%c: D:\gameRes\NewProject_6\assets\scene\scene.scenebackground: #aaff85; color: #000;color: #000;
+2025-3-1 18:25:00-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:182.07MB, end 188.21MB, increase: 6.14MB
+2025-3-1 18:25:00-debug: [Assets Memory track]: asset-db:worker-init: startup start:184.39MB, end 188.22MB, increase: 3.83MB
+2025-3-1 18:25:00-debug: asset-db:worker-startup-database[assets] (8012ms)
+2025-3-1 18:25:00-debug: asset-db:start-database (14664ms)
+2025-3-1 18:25:00-debug: asset-db:ready (45884ms)
+2025-3-1 18:25:00-debug: init worker message success
+2025-3-1 18:25:01-debug: [Build Memory track]: builder:worker-init start:185.31MB, end 197.64MB, increase: 12.33MB
+2025-3-1 18:25:01-debug: programming:execute-script (1401ms)
+2025-3-1 18:25:01-debug: builder:worker-init (1399ms)
+2025-3-1 18:25:04-debug: programming:execute-script (20ms)

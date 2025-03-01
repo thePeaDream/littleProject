@@ -1,0 +1,404 @@
+18:55:03 debug: 2025/3/1下午6:55:03
+18:55:03 debug: Project: D:\gameRes\NewProject_6
+18:55:03 debug: Targets: editor,preview
+18:55:03 debug: Incremental file seems great.
+18:55:03 debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+18:55:03 debug: Initializing target [Editor]
+18:55:03 debug: Loading cache
+18:55:03 debug: Loading cache costs 0.9808998107910156ms.
+18:55:03 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
+18:55:03 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+18:55:03 debug: Initializing target [Preview]
+18:55:03 debug: Loading cache
+18:55:03 debug: Loading cache costs 0.8768999576568604ms.
+18:55:03 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+18:55:03 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+18:55:03 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "D:\\gameRes\\NewProject_6\\assets"
+  }
+]
+18:55:03 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/gameRes/NewProject_6/assets/"
+  }
+}
+18:55:03 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/gameRes/NewProject_6/assets/"
+  }
+}
+18:55:03 debug: Pulling asset-db.
+18:55:04 debug: Fetch asset-db cost: 10.142400026321411ms.
+18:55:04 debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+18:55:04 debug: Target(editor) build started.
+18:55:04 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+18:55:04 debug: Inspect cce:/internal/x/cc
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+18:55:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+18:55:04 debug: Inspect cce:/internal/x/prerequisite-imports
+18:55:04 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:55:04 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+18:55:04 debug: Target(editor) ends with cost 74.28810000419617ms.
+18:55:04 debug: Target(preview) build started.
+18:55:04 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:39 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+18:55:04 debug: Inspect cce:/internal/x/cc
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+18:55:04 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+18:55:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间)
+18:55:04 debug: Inspect cce:/internal/x/prerequisite-imports
+18:55:04 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:55:04 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+18:55:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+18:55:04 debug: Target(preview) ends with cost 56.684499979019165ms.
+18:55:04 debug: Pulling asset-db.
+18:55:04 debug: Fetch asset-db cost: 513.4478001594543ms.
+18:55:04 debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+18:55:04 debug: Target(editor) build started.
+18:55:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+18:55:04 debug: Inspect cce:/internal/x/prerequisite-imports
+18:55:04 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:55:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+18:55:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+18:55:04 debug: Target(editor) ends with cost 54.187000036239624ms.
+18:55:04 debug: Target(preview) build started.
+18:55:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+18:55:04 debug: Inspect cce:/internal/x/prerequisite-imports
+18:55:04 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:55:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+18:55:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+18:55:04 debug: Target(preview) ends with cost 49.80750012397766ms.
+18:56:43 debug: Dispatch build request for time accumulated 1 asset changes.
+18:56:43 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+18:56:43 debug: Target(editor) build started.
+18:56:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:47 GMT+0800 (中国标准时间)
+18:56:43 debug: Inspect cce:/internal/x/prerequisite-imports
+18:56:43 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:56:43 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+18:56:43 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts.
+18:56:43 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts
+18:56:43 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts as cce:/internal/x/cc.
+18:56:43 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts as cce:/internal/x/cc.
+18:56:43 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts as cce:/internal/x/cc.
+18:56:43 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+18:56:43 debug: Target(editor) ends with cost 60.97960019111633ms.
+18:56:43 debug: Target(preview) build started.
+18:56:43 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:47 GMT+0800 (中国标准时间)
+18:56:43 debug: Inspect cce:/internal/x/prerequisite-imports
+18:56:43 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:56:43 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+18:56:43 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts.
+18:56:43 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts
+18:56:43 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts as cce:/internal/x/cc.
+18:56:43 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts as cce:/internal/x/cc.
+18:56:43 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixUpdate.ts as cce:/internal/x/cc.
+18:56:43 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+18:56:43 debug: Target(preview) ends with cost 64.65549993515015ms.
+18:56:50 debug: Dispatch build request for time accumulated 1 asset changes.
+18:56:50 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+18:56:50 debug: Target(editor) build started.
+18:56:50 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:47 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:54 GMT+0800 (中国标准时间)
+18:56:50 debug: Inspect cce:/internal/x/prerequisite-imports
+18:56:50 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:56:50 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+18:56:50 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+18:56:50 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts
+18:56:50 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+18:56:50 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+18:56:50 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+18:56:50 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+18:56:50 debug: Target(editor) ends with cost 46.966399908065796ms.
+18:56:50 debug: Target(preview) build started.
+18:56:50 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:47 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:01:54 GMT+0800 (中国标准时间)
+18:56:50 debug: Inspect cce:/internal/x/prerequisite-imports
+18:56:50 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+18:56:50 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+18:56:50 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+18:56:50 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts
+18:56:51 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+18:56:51 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+18:56:51 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+18:56:51 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+18:56:51 debug: Target(preview) ends with cost 57.95650005340576ms.
+19:15:57 debug: Dispatch build request for time accumulated 2 asset changes.
+19:15:57 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+19:15:57 debug: Target(editor) build started.
+19:15:57 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:21:00 GMT+0800 (中国标准时间)
+19:15:57 debug: Inspect cce:/internal/x/prerequisite-imports
+19:15:57 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:15:57 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:15:57 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:15:57 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts. Last mtime: Sat Mar 01 2025 18:56:43 GMT+0800 (中国标准时间)@499fa00e-68a0-4717-8a10-c6408f9b2994, Current mtime: Sat Mar 01 2025 19:13:00 GMT+0800 (中国标准时间)@499fa00e-68a0-4717-8a10-c6408f9b2994
+19:15:57 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:15:57 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 06:41:51 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:15:51 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:15:57 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:15:57 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:15:57 debug: Inspect cce:/internal/code-quality/cr.mjs
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:15:57 debug: Target(editor) ends with cost 151.79579997062683ms.
+19:15:57 debug: Target(preview) build started.
+19:15:57 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:21:00 GMT+0800 (中国标准时间)
+19:15:57 debug: Inspect cce:/internal/x/prerequisite-imports
+19:15:57 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:15:57 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:15:57 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:15:57 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts. Last mtime: Sat Mar 01 2025 18:56:43 GMT+0800 (中国标准时间)@499fa00e-68a0-4717-8a10-c6408f9b2994, Current mtime: Sat Mar 01 2025 19:13:00 GMT+0800 (中国标准时间)@499fa00e-68a0-4717-8a10-c6408f9b2994
+19:15:57 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:15:57 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:15:57 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 06:41:51 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:15:51 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:15:57 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:15:58 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:15:58 debug: Inspect cce:/internal/code-quality/cr.mjs
+19:15:58 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:15:58 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:15:58 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:15:58 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:15:58 debug: Target(preview) ends with cost 134.70039987564087ms.
+19:18:04 debug: Dispatch build request for time accumulated 1 asset changes.
+19:18:04 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+19:18:04 debug: Target(editor) build started.
+19:18:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:07 GMT+0800 (中国标准时间)
+19:18:04 debug: Inspect cce:/internal/x/prerequisite-imports
+19:18:04 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:18:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:18:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:18:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:18:04 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 19:15:51 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:17:58 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:18:04 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:18:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:18:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:18:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:18:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:18:04 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:18:04 debug: Target(editor) ends with cost 158.63179993629456ms.
+19:18:04 debug: Target(preview) build started.
+19:18:04 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:23:07 GMT+0800 (中国标准时间)
+19:18:04 debug: Inspect cce:/internal/x/prerequisite-imports
+19:18:04 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:18:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:18:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:18:04 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:18:04 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 19:15:51 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:17:58 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:18:04 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:18:04 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:18:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:18:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:18:04 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:18:04 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:18:04 debug: Target(preview) ends with cost 114.03410005569458ms.
+19:19:06 debug: Dispatch build request for time accumulated 1 asset changes.
+19:19:06 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+19:19:06 debug: Target(editor) build started.
+19:19:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:09 GMT+0800 (中国标准时间)
+19:19:06 debug: Inspect cce:/internal/x/prerequisite-imports
+19:19:06 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:19:06 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:19:06 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:19:06 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:19:06 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 19:17:58 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:19:03 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:19:06 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:19:06 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:19:06 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:19:06 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:19:06 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:19:06 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:19:06 debug: Target(editor) ends with cost 101.21009993553162ms.
+19:19:06 debug: Target(preview) build started.
+19:19:06 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:23:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:24:09 GMT+0800 (中国标准时间)
+19:19:06 debug: Inspect cce:/internal/x/prerequisite-imports
+19:19:06 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:19:06 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:19:06 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:19:06 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:19:06 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 19:17:58 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:19:03 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:19:06 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:19:06 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:19:06 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:19:06 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:19:06 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:19:06 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:19:06 debug: Target(preview) ends with cost 86.06569981575012ms.
+19:21:12 debug: Dispatch build request for time accumulated 1 asset changes.
+19:21:12 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+19:21:12 debug: Target(editor) build started.
+19:21:12 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:26:14 GMT+0800 (中国标准时间)
+19:21:12 debug: Inspect cce:/internal/x/prerequisite-imports
+19:21:12 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:21:12 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:21:12 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:21:12 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:21:12 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 19:19:03 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:21:03 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:21:12 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:21:12 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:21:12 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:21:12 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:21:12 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:21:12 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:21:12 debug: Target(editor) ends with cost 88.11719989776611ms.
+19:21:12 debug: Target(preview) build started.
+19:21:12 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:24:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:26:14 GMT+0800 (中国标准时间)
+19:21:12 debug: Inspect cce:/internal/x/prerequisite-imports
+19:21:12 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:21:12 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:21:12 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:21:12 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:21:12 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 19:19:03 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:21:03 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:21:12 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:21:12 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:21:12 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:21:12 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:21:12 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:21:12 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:21:12 debug: Target(preview) ends with cost 88.9012999534607ms.
+19:27:35 debug: Dispatch build request for time accumulated 2 asset changes.
+19:27:35 debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+19:27:35 debug: Target(editor) build started.
+19:27:35 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:26:14 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:32:38 GMT+0800 (中国标准时间)
+19:27:35 debug: Inspect cce:/internal/x/prerequisite-imports
+19:27:35 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:27:35 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:27:35 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:27:35 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts. Last mtime: Sat Mar 01 2025 19:13:00 GMT+0800 (中国标准时间)@499fa00e-68a0-4717-8a10-c6408f9b2994, Current mtime: Sat Mar 01 2025 19:27:16 GMT+0800 (中国标准时间)@499fa00e-68a0-4717-8a10-c6408f9b2994
+19:27:35 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:27:36 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 19:21:03 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:27:33 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:27:36 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:27:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:27:36 debug: Target(editor) ends with cost 189.7263000011444ms.
+19:27:36 debug: Target(preview) build started.
+19:27:36 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:26:14 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:32:38 GMT+0800 (中国标准时间)
+19:27:36 debug: Inspect cce:/internal/x/prerequisite-imports
+19:27:36 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:27:36 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/CustomRenderingOrder.ts.
+19:27:36 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:27:36 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts. Last mtime: Sat Mar 01 2025 19:13:00 GMT+0800 (中国标准时间)@499fa00e-68a0-4717-8a10-c6408f9b2994, Current mtime: Sat Mar 01 2025 19:27:16 GMT+0800 (中国标准时间)@499fa00e-68a0-4717-8a10-c6408f9b2994
+19:27:36 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts from cce:/internal/x/prerequisite-imports as file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts.
+19:27:36 debug: Detected change: file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts. Last mtime: Sat Mar 01 2025 19:21:03 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d, Current mtime: Sat Mar 01 2025 19:27:33 GMT+0800 (中国标准时间)@ad4d3105-f9bd-4d52-acab-d1f2292c7f6d
+19:27:36 debug: Inspect file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts
+19:27:36 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/code-quality/cr.mjs.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve cc from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as cce:/internal/x/cc.
+19:27:36 debug: Resolve ./FixedUpdate from file:///D:/gameRes/NewProject_6/assets/Script/PlayerControl.ts as file:///D:/gameRes/NewProject_6/assets/Script/FixedUpdate.ts.
+19:27:36 debug: Target(preview) ends with cost 177.1317000389099ms.
